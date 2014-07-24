@@ -1,0 +1,15 @@
+{
+    "func_comment" : false,
+    "file_line": 500,
+    "func_line": 80,
+    "params_num":4,
+    "results_num":3,
+    "max_indent": 10,
+    "formated": true,
+    "pkg_name":true,
+    "ignore":[
+    ],
+    "fatal":[
+        "formated"
+    ]
+}
