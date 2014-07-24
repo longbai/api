@@ -8,10 +8,10 @@
     "formated": true,
     "pkg_name":true,
     "ignore":[
-        "*/src/qiniu.com/bytes/*",
-        "*/src/qiniu.com/log/*",
-        "*/src/qiniu.com/rpc/*",
-        "*/src/qiniu.com/checkstyle/*"
+        "/home/travis/gopath/src/qiniu.com/bytes/*",
+        "/home/travis/gopath/src/qiniu.com/log/*",
+        "/home/travis/gopath/src/qiniu.com/rpc/*",
+        "/home/travis/gopath/src/qiniu.com/checkstyle/*"
     ],
     "fatal":[
         "formated"
