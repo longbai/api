@@ -9,5 +9,5 @@ before_script:
   - export QINIU_TEST_DOMAIN="gosdk.qiniudn.com"
 
 script:
-  - GOPATH=`pwd`/../checkstyle && cd .. && mkdir -p checkstyle; cd checkstyle && go get github.com/qiniu/checkstyle/gocheckstyle"
+  - GOPATH=`pwd`/../checkstyle && cd .. && mkdir -p checkstyle; cd checkstyle && go get github.com/qiniu/checkstyle/gocheckstyle
   - ../checkstyle/bin/gocheckstyle -config=.go_style .
